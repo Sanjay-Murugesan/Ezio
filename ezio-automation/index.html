@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ezio Automation | Special Purpose Machine Manufacturer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <img src="https://dummyimage.com/120x120/ffffff/111111&text=E" alt="Ezio logo">
+        <div>
+          <div class="nav-logo-text">EZIO AUTOMATION</div>
+          <span class="nav-logo-sub">Industrial Innovation</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <a class="btn btn-outline" href="admin.html">Admin</a>
+        <button id="hamburger" class="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="mobileMenu" class="mobile-menu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a class="m-cta" href="admin.html">Open Admin</a>
+  </div>
+
+  <section id="home" class="hero">
+    <div class="hero-rule"></div>
+    <div class="hero-inner">
+      <div class="hero-left reveal-l">
+        <div class="hero-eyebrow">
+          <div class="hero-eyebrow-line"></div>
+          <span class="t-tag">Special Purpose Machines</span>
+        </div>
+        <h1 class="t-hero">Industrial Automation Built for <em>Precision</em></h1>
+        <p class="hero-desc">
+          Ezio Automation designs and manufactures high-performance SPM solutions,
+          conveyor systems, and PLC/SCADA integration for modern production lines.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="#contact">Request Quote</a>
+          <a class="btn btn-outline" href="#services">Explore Services</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="stat-number" data-target="120" data-suffix="+">0+</div>
+            <div class="stat-desc">Projects Delivered</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number" data-target="35" data-suffix="+">0+</div>
+            <div class="stat-desc">Industries Served</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number" data-target="10" data-suffix="+">0+</div>
+            <div class="stat-desc">Years Experience</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right reveal-r">
+        <div class="hero-img-frame">
+          <img src="https://images.unsplash.com/photo-1581092335397-9583eb92d232?auto=format&fit=crop&w=1000&q=80" alt="Industrial machinery">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section section--gray">
+    <div class="container about-grid">
+      <div class="about-left reveal">
+        <span class="t-tag">About Ezio</span>
+        <h2 class="t-section">Engineering Reliable Automation for Manufacturing Growth</h2>
+        <div class="divider"></div>
+        <p class="t-body">
+          We help factories improve output, consistency, and safety through custom
+          machine design and process automation. Every system is planned around your
+          product, throughput goals, and floor constraints.
+        </p>
+      </div>
+      <div class="about-right reveal">
+        <div class="about-img-stack">
+          <div class="about-img-box"><img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1000&q=80" alt="Automation team"></div>
+          <div class="about-img-box"><img src="https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=1000&q=80" alt="Machine design"></div>
+          <div class="about-img-box"><img src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&w=1000&q=80" alt="Factory line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <span class="t-tag">Services</span>
+      <h2 class="t-section">End-to-End Industrial Automation Services</h2>
+      <div class="divider"></div>
+      <div class="services-grid">
+        <article class="svc-card reveal">
+          <span class="svc-number">01</span>
+          <h3>Special Purpose Machines (SPM)</h3>
+          <p>Custom-built machines for assembly, testing, feeding, pressing, and process-specific workflows.</p>
+        </article>
+        <article class="svc-card reveal">
+          <span class="svc-number">02</span>
+          <h3>PLC / SCADA Integration</h3>
+          <p>Control architecture with Siemens/Allen-Bradley PLCs, HMI dashboards, and production monitoring.</p>
+        </article>
+        <article class="svc-card reveal">
+          <span class="svc-number">03</span>
+          <h3>Conveyor & Material Handling</h3>
+          <p>Belt, roller, and modular conveyor systems designed for smooth and safe movement across stations.</p>
+        </article>
+        <article class="svc-card reveal">
+          <span class="svc-number">04</span>
+          <h3>Retrofitting & Upgrades</h3>
+          <p>Modernize existing machines with better controls, sensors, and productivity-focused improvements.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section--off2">
+    <div class="container contact-wrap">
+      <div class="contact-info reveal-l">
+        <span class="t-tag">Contact</span>
+        <h2 class="t-section">Let's Build Your Next Automation Line</h2>
+        <div class="divider"></div>
+        <p class="t-body">Phone: <strong>8489210516</strong></p>
+        <p class="t-body">Email: <strong>ezioautomation@gmail.com</strong></p>
+        <p class="t-body">WhatsApp: <a href="https://wa.me/918489210516?text=Hello%20Ezio%20Automation%2C%20I%20need%20automation%20support." target="_blank" rel="noopener">Chat Now</a></p>
+        <p class="t-small">For admin logs, use the dashboard page: <a href="admin.html">admin.html</a>.</p>
+      </div>
+      <form id="enquiryForm" class="enquiry-form reveal-r" onsubmit="sendEnquiry(event)">
+        <input name="from_name" placeholder="AjithKumar" required />
+        <input type="email" name="from_email" placeholder="Email Address" required />
+        <input name="from_phone" placeholder="Phone Number" />
+        <input name="company" placeholder="Company Name" />
+        <select name="service" required>
+          <option value="">Select Service</option>
+          <option>Special Purpose Machine (SPM)</option>
+          <option>PLC / SCADA System</option>
+          <option>Conveyor & Material Handling</option>
+          <option>Retrofitting & Upgrades</option>
+        </select>
+        <textarea name="message" rows="5" placeholder="Your Requirement" required></textarea>
+        <button id="submitBtn" class="btn btn-accent" type="submit">Send Enquiry</button>
+        <div id="formMsg" class="form-msg" style="display:none"></div>
+      </form>
+    </div>
+  </section>
+
+  <a class="wa-float" href="https://wa.me/918489210516?text=Hello%20Ezio%20Automation%2C%20I%20need%20automation%20support." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <span class="wa-label">WhatsApp Us</span>
+    <span class="wa-circle" aria-hidden="true">
+      <svg viewBox="0 0 32 32">
+        <path d="M19.11 17.36c-.27-.13-1.58-.78-1.83-.87-.24-.09-.41-.13-.59.13s-.68.87-.83 1.05c-.15.17-.3.2-.56.07-.27-.13-1.12-.41-2.13-1.31-.79-.7-1.32-1.57-1.47-1.83-.15-.26-.02-.4.11-.53.12-.12.27-.3.41-.45.13-.15.17-.26.26-.43.09-.17.04-.33-.02-.46-.07-.13-.59-1.42-.81-1.95-.21-.5-.43-.43-.59-.44h-.5c-.17 0-.46.07-.7.33s-.92.9-.92 2.2.95 2.56 1.08 2.74c.13.17 1.86 2.84 4.51 3.98.63.27 1.13.43 1.51.55.64.2 1.23.17 1.69.1.52-.08 1.58-.65 1.8-1.27.22-.62.22-1.16.15-1.27-.06-.11-.24-.17-.51-.3z"></path>
+        <path d="M16.05 3C8.85 3 3 8.77 3 15.87c0 2.28.62 4.5 1.8 6.44L3 29l6.9-1.8a13.2 13.2 0 0 0 6.15 1.54h.01C23.25 28.74 29 22.97 29 15.87 29 8.77 23.24 3 16.05 3zm0 23.42h-.01a10.97 10.97 0 0 1-5.58-1.52l-.4-.24-4.09 1.07 1.09-3.97-.26-.41a10.88 10.88 0 0 1-1.67-5.76c0-6.04 4.98-10.95 11.12-10.95 6.14 0 11.1 4.91 11.1 10.95 0 6.04-4.97 10.95-11.1 10.95z"></path>
+      </svg>
+    </span>
+  </a>
+
+  <footer>
+    <div class="container">
+      <div class="foot-about">
+        <h3>Ezio Automation Pvt. Ltd.</h3>
+        <p>Custom machine manufacturing and industrial automation solutions.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
