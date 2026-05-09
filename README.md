@@ -48,7 +48,7 @@ http://localhost:8000/ezio-admin.html
 - Local storage for enquiry backup
 
 ### Admin Dashboard
-- Password-protected access (ezio2025)
+- Password-protected access
 - Enquiry management (view, mark as read, delete)
 - Search and filter functionality
 - CSV export
