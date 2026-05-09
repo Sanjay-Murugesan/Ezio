@@ -6,13 +6,14 @@
   <title>Ezio Automation | Special Purpose Machine Manufacturer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script defer src="main.js"></script>
 </head>
 <body>
   <nav id="navbar">
+    <div id="progressBar"></div>
     <div class="nav-inner">
       <a href="#home" class="nav-logo">
         <img src="https://dummyimage.com/120x120/ffffff/111111&text=E" alt="Ezio logo">
@@ -27,12 +28,7 @@
         <li><a href="#services">Services</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <div class="nav-right">
-        <a class="btn btn-outline" href="admin.html">Admin</a>
-        <button id="hamburger" class="hamburger" aria-label="Menu">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
+     
     </div>
   </nav>
 
@@ -45,44 +41,53 @@
   </div>
 
   <section id="home" class="hero">
-    <div class="hero-rule"></div>
-    <div class="hero-inner">
-      <div class="hero-left reveal-l">
-        <div class="hero-eyebrow">
-          <div class="hero-eyebrow-line"></div>
-          <span class="t-tag">Special Purpose Machines</span>
-        </div>
-        <h1 class="t-hero">Industrial Automation Built for <em>Precision</em></h1>
-        <p class="hero-desc">
-          Ezio Automation designs and manufactures high-performance SPM solutions,
-          conveyor systems, and PLC/SCADA integration for modern production lines.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-solid" href="#contact">Request Quote</a>
-          <a class="btn btn-outline" href="#services">Explore Services</a>
-        </div>
-        <div class="hero-stats">
-          <div class="hero-stat">
-            <div class="stat-number" data-target="120" data-suffix="+">0+</div>
-            <div class="stat-desc">Projects Delivered</div>
-          </div>
-          <div class="hero-stat">
-            <div class="stat-number" data-target="35" data-suffix="+">0+</div>
-            <div class="stat-desc">Industries Served</div>
-          </div>
-          <div class="hero-stat">
-            <div class="stat-number" data-target="10" data-suffix="+">0+</div>
-            <div class="stat-desc">Years Experience</div>
-          </div>
-        </div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-inner">
+    <div class="hero-left reveal-l">
+      <span class="hero-tag">INDUSTRIAL AUTOMATION EXPERTS</span>
+
+      <h1 class="t-hero">
+        Building Smart <span>Automation</span>
+        Solutions For Modern Industries
+      </h1>
+
+      <p class="hero-desc">
+        Ezio Automation delivers premium industrial automation,
+        PLC integration, conveyor systems, and custom-built
+        Special Purpose Machines engineered for performance.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-solid">Get Free Consultation</a>
+        <a href="#services" class="btn btn-outline">Our Services</a>
       </div>
-      <div class="hero-right reveal-r">
-        <div class="hero-img-frame">
-          <img src="https://images.unsplash.com/photo-1581092335397-9583eb92d232?auto=format&fit=crop&w=1000&q=80" alt="Industrial machinery">
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <h2 data-target="120">0</h2>
+          <p>Projects Delivered</p>
+        </div>
+
+        <div class="hero-stat">
+          <h2 data-target="35">0</h2>
+          <p>Industries Served</p>
+        </div>
+
+        <div class="hero-stat">
+          <h2 data-target="10">0</h2>
+          <p>Years Experience</p>
         </div>
       </div>
     </div>
-  </section>
+
+    <div class="hero-right reveal-r">
+      <div class="hero-img-frame">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200" alt="Industrial Machine">
+      </div>
+    </div>
+  </div>
+</section>
 
   <section id="about" class="section section--gray">
     <div class="container about-grid">
@@ -145,10 +150,10 @@
         <p class="t-body">Phone: <strong>8489210516</strong></p>
         <p class="t-body">Email: <strong>ezioautomation@gmail.com</strong></p>
         <p class="t-body">WhatsApp: <a href="https://wa.me/918489210516?text=Hello%20Ezio%20Automation%2C%20I%20need%20automation%20support." target="_blank" rel="noopener">Chat Now</a></p>
-        <p class="t-small">For admin logs, use the dashboard page: <a href="admin.html">admin.html</a>.</p>
+        
       </div>
       <form id="enquiryForm" class="enquiry-form reveal-r" onsubmit="sendEnquiry(event)">
-        <input name="from_name" placeholder="AjithKumar" required />
+        <input name="from_name" placeholder="Your Name" required />
         <input type="email" name="from_email" placeholder="Email Address" required />
         <input name="from_phone" placeholder="Phone Number" />
         <input name="company" placeholder="Company Name" />
