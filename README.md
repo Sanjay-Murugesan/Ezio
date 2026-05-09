@@ -2,17 +2,37 @@
 
 A clean, static brochure website for Ezio Automation — Special Purpose Machine Manufacturers.
 
-## Project Files
+## 🚀 Live Demo
+- **GitHub Repository**: https://github.com/Sanjay-Murugesan/Ezio
+- **Local Development**: Open `index.html` in your browser
+- **Admin Dashboard**: Open `admin.html` (Password: `ezio2025`)
 
-- `index.html` — main website
-- `style.css` — page styling and layout
-- `main.js` — navigation, animation, contact form handling, and EmailJS support
-- `admin.html` — admin dashboard for enquiry history and localStorage preview
-- `package.json` — project metadata only
-- `.gitignore` — common ignored files
-- `README.md` — project documentation
+## 📁 Project Files
 
-## How to Run
+- `index.html` — Main website with contact form and WhatsApp integration
+- `style.css` — Clean white theme with DM Serif Display + DM Sans fonts
+- `main.js` — Navigation, animations, contact form handling, and EmailJS support
+- `admin.html` — Admin dashboard for enquiry history and localStorage preview
+- `package.json` — Project metadata only
+- `.gitignore` — Common ignored files
+- `README.md` — Project documentation
+
+## ✨ Features
+
+- **Responsive Design** — Works on desktop, tablet, and mobile
+- **Contact Form** — EmailJS integration for form submissions
+- **WhatsApp Integration** — Direct chat link with pre-filled message
+- **Admin Dashboard** — Password-protected enquiry management
+- **Smooth Animations** — Scroll reveals, counters, and hover effects
+- **Local Storage** — Offline enquiry storage for admin dashboard
+
+## 📞 Contact Information
+
+- **Phone**: 8489210516
+- **Email**: ezioautomation@gmail.com
+- **WhatsApp**: Direct chat integration
+
+## 🛠️ How to Run
 
 ### Option 1: Open locally
 1. Open the project folder: `C:\Users\mssan\OneDrive\Documents\Ezio\ezio-automation`
@@ -33,25 +53,27 @@ Then open:
 http://localhost:8000/index.html
 ```
 
-## How to Collaborate
+## 👥 How to Collaborate
 
-### Share via GitHub
-1. Create a GitHub repository
-2. Add remote and push:
+### Share via GitHub (Current Setup)
+The project is already set up on GitHub:
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/ezio-automation.git
-git push -u origin main
-```
+# Clone the repository
+git clone https://github.com/Sanjay-Murugesan/Ezio.git
 
-3. Invite a collaborator from GitHub repo settings
+# Make changes and push
+git add .
+git commit -m "Your changes"
+git push origin main
+```
 
 ### Share via OneDrive
 1. Right-click the `ezio-automation` folder
 2. Click **Share**
 3. Send the link to your friend
 
-## What to Update
+## 📋 What to Update
 
 ### Contact details
 Update your contact information in `index.html`:
@@ -69,16 +91,17 @@ If the contact form should send email, update `main.js` with:
 ### Admin password
 If needed, change the password in `admin.html` from the current default `ezio2025`.
 
-## Deployment
+## 🚀 Deployment
 
 This is a static website and can be deployed to any static host:
-- Netlify
-- Vercel
-- GitHub Pages
-- Firebase Hosting
+- **Netlify** — Drag & drop the folder
+- **Vercel** — Connect GitHub repo
+- **GitHub Pages** — Enable from repository settings
+- **Firebase Hosting** — Use Firebase CLI
 
-## Notes
+## 📝 Notes
 
 - Keep all files together in the same folder for CSS and JavaScript to load correctly
 - `admin.html` is a local dashboard; it stores enquiries in browser `localStorage`
-- If you want, I can also help you add EmailJS setup or update contact info directly
+- The website uses EmailJS for contact form submissions
+- All contact details are hardcoded in `index.html` for easy updates
