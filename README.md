@@ -5,7 +5,7 @@ A complete industrial automation website with contact form and admin dashboard.
 ## Files
 
 - `ezio-website.html` - Main website with all HTML, CSS, and JavaScript combined
-- `ezio-admin.html` - Admin dashboard for managing enquiries (password: ezio2025)
+- `ezio-admin.html` - Admin dashboard for managing enquiries 
 - `index.html` — original main website (separate files)
 - `style.css` — page styling and layout
 - `main.js` — navigation, animation, contact form handling, and EmailJS support
